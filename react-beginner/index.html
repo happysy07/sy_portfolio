@@ -81,6 +81,7 @@
                         <option value="0">Minutes & Hours</option>    
                         <option value="1">Km & Miles</option>    
                     </select>
+                    {index === "default" ? <h3>please your select</h3> : null}
                     {index === "0"? <MinutesToHours/> : null}
                     {index === "1"? <KmToMiles/> : null}
                 </div>
